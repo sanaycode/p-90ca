@@ -1,0 +1,10 @@
+player1_name=document.getElementById("player1_name").value;
+player2_name=document.getElementById("player2_name").value;
+document.getElementById("playe1_name").innerHTML=player1_name;
+document.getElementById("playe2_name").innerHTML=player2_name;
+player1_score=0;
+player2_score=0;
+document.getElementById("player1_score").innerHTML=player1_score;
+document.getElementById("player2_score").innerHTML=player2_score;
+document.getElementById("questioner_name").innerHTML=player1_name;
+document.getElementById("answerer_name").innerHTML=player2_name;
